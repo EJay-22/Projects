@@ -2,20 +2,6 @@ import time
 import random
 from threading import Thread
 
-
-def importTest():
-    time.sleep(10)
-    print(random.randint(1,10))
-    print("10 second is over")
-
-    
-def check():
-    time.sleep(2)
-    if answer != None:
-        return
-    print("Too Slow")
-    lives -= 1
-
 def Hotkey():
     changeHotkey = "C"
     while changeHotkey.casefold() != "b":
